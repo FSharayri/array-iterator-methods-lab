@@ -119,7 +119,7 @@ let sortedByBirthYear = []
 
 // Enter your solution code here:
 
-sortedByBirthYear = inventors.sort((a,b)=>{return a.year - b.year})
+sortedByBirthYear = inventors.sort((a,b)=>a.year - b.year)
 
 // Check your return value:
 console.log('Exercise 3 My Result: ', sortedByBirthYear)
@@ -154,7 +154,7 @@ let inventorNamedAda = {}
 
 // Enter you solution code here:
 
-inventorNamedAda = inventors.find((inventor)=> {return inventor.first==='Ada'})
+inventorNamedAda = inventors.find(inventor=> inventor.first==='Ada')
 
 // Check your return value:
 console.log('Exercise 4 My Result: ', inventorNamedAda)
@@ -173,9 +173,8 @@ let firstLast = []
 
 // Enter your solution code here:
 
-firstLast = people.map((el)=>{ 
-    return `${el.split(', ')[1]} ${el.split(', ')[0]}`
-})
+firstLast = people.map(el => `${el.split(', ')[1]} ${el.split(', ')[0]}`
+)
 
 // Check your return value:
 console.log('Exercise 5 My Result: ', firstLast)
