@@ -44,6 +44,7 @@ const inventors = [
   ];
   
   
+  
   // Array.prototype.filter()
 
 // 1. Filter the array of inventors into a new array containing only the inventors born in the 1500's.
